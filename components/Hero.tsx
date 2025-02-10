@@ -10,7 +10,7 @@ interface HeroProps {
 const Hero = ({
   width = "max-w-full",
   badgeText = "RSS News",
-  title = "News Feed",
+
   description = "Latest updates and news about CVE's, Cybersecurity, Windows, Linux, and Hacking.",
 }: HeroProps) => {
   return (
@@ -25,7 +25,6 @@ const Hero = ({
                 {badgeText}
               </Badge>
               <h3 className="text-lg md:text-xl font-semibold mb-1">
-                {title}
               </h3>
               <p className="text-xs md:text-sm text-muted-foreground max-w-xl">
                 {description}

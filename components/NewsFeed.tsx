@@ -56,11 +56,10 @@ export default function NewsFeed() {
     fetchNews();
   }, [page]);
 
-  // Get the search parameters
   const categories = searchParams.get('category')?.split(',') || [];
   const search = searchParams.get('search') || '';
 
-  // Filter the news based on categories and search
+
   let filteredNews = news;
 
   if (categories.length > 0) {
@@ -79,7 +78,7 @@ export default function NewsFeed() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredNews.map((item, index) => (
           <div
-            key={item.link} // Use a unique key for each item
+            key={item.link} 
             ref={index === filteredNews.length - 1 ? lastNewsElementRef : null}
           >
             <NewsCard article={item} />
