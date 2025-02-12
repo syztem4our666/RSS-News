@@ -18,6 +18,7 @@ const RSS_FEEDS = [
   { url: 'https://itsfoss.com/feed', name: 'FOSS', category: 'linux' },
   { url: 'http://www.linux-magazine.com/rss/feed/lmi_news', name: 'Linux Magazine', category: 'linux' },
   { url: 'https://www.linuxtoday.com/rss', name: 'Linux Today', category: 'linux' },
+  { url: 'https://feeds.feedburner.com/Ostechnix', name: 'OSTechNix', category: 'linux' },
 
   // 🔹 Windows
   { url: 'https://www.ghacks.net/feed/', name: 'gHacks', category: 'windows' },

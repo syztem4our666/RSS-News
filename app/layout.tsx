@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "News Feed",
+  title: "RSS News",
   description: "Stay updated with the latest news about CVE's, Cybersecurity, and more.",
 };
 
